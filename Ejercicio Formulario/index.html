@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+   
+</head>
+<body>
+    <div style="width: 600px; margin: 0 px auto; ">
+            <h2>Formulario</h2>
+            <form action="registro.php" method="get">
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre</label></td>
+                        <td><input type="text" name="nombre" id="nombre" value="" placeholder="Introduzca nombre" autofocus size="50" 
+                            maxlength="10" ></td>
+                    </tr>
+                    <tr>
+                        <td>Apellidos</td>
+                        <td><input type="text" name="nombre"></td>
+                    </tr>         
+                    <tr>
+                        <td>Contraseña</td>
+                        <td><input type="password" name="nombre"></td>
+                    </tr> 
+                    <tr>
+                        <td><span>¿Mayor de edad?</span>
+                        <td><input type="radio" name="pregunta" id="pregunta" value="si"><span>Sí</span></td>
+                        <td><input type="radio" name="pregunta" id="pregunta" value="no"><span>No</span></td>
+
+                    </tr>      
+                    <tr>
+                        <td><input type="reset" value="Borrar"></td>
+                        <td><input type="submit" value="Enviar formulario"></td>
+                        <td><input type="button" name="boton" id="boton" value="Ocultar"
+                        ></td>
+                            
+                    </tr> 
+                    <tr>
+                        <td><label for="provincias">Provincias</label></td>
+
+                        <td> <select name="provincias" id="provincias">
+                            <option value="-1">Seleccione provincia</option>
+                            <option value="41"selected>Sevilla</option>
+                            <option value="39">Cádiz</option>
+                            <option value="27">Huelva</option>
+                        </select>
+                    </tr>      
+                        
+                </table>
+            </form>
+
+    </div>
+    
+</body>
+</html>
